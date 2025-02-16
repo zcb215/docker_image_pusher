@@ -6,7 +6,4 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0   # 私有仓库镜像
 --platform=linux/arm64 xiaoyaliu/alist   # 指定 ARM64 架构
 xhofe/alist:latest   # 默认使用 latest 标签
 
-# 使用 Ubuntu 镜像
-ubuntu:latest   # 默认最新的 Ubuntu 镜像
-ubuntu:20.04    # Ubuntu 20.04 LTS 版本
-ubuntu:22.04    # Ubuntu 22.04 LTS 版本
+arm64v8/ubuntu:latest
