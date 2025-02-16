@@ -1,6 +1,6 @@
 # 支持私库
 nginx:latest
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0   # 私有仓库镜像
+docker pull k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0   # 私有仓库镜像
 
 # 支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist   # 指定 ARM64 架构
